@@ -7,12 +7,12 @@
 package com.jerieshandal.spark.message;
 
 /**
- * Message
+ * Messages
  *
  * @author JeriesHG
  * @version 1.0.0
  */
-public enum Message {
+public enum Messages {
 
     /**
      * Marks the moment where the routes are getting initialized
@@ -25,11 +25,11 @@ public enum Message {
 
     private final String message;
 
-    private Message(String message) {
+    private Messages(String message) {
         this.message = message;
     }
 
-    public String getMessage() {
+    public String get() {
         return message;
     }
 }

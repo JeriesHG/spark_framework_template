@@ -7,12 +7,12 @@
 package com.jerieshandal.spark.message;
 
 /**
- * ValidationMessage
+ * ValidationMessages
  *
  * @author JeriesHG
  * @version 1.0.0
  */
-public enum ValidationMessage {
+public enum ValidationMessages {
     
     INVALID_FIELD("Please fill the highlighted field."),
     
@@ -20,11 +20,11 @@ public enum ValidationMessage {
 
     private final String message;
 
-    private ValidationMessage(String message) {
+    private ValidationMessages(String message) {
         this.message = message;
     }
 
-    public String getMessage() {
+    public String get() {
         return message;
     }
 }

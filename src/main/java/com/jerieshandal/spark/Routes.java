@@ -22,7 +22,7 @@ public enum Routes {
         this.route = route;
     }
 
-    public String route() {
+    public String get() {
         return route;
     }
 }

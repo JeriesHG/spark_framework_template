@@ -20,7 +20,7 @@ public class HomeController implements IController{
 
     @Override
     public void initializeRoutes() {
-        get(Routes.HOME.route(), (request, response)->{
+        get(Routes.HOME.get(), (request, response)->{
            return "Hello World!"; 
         });
     }
